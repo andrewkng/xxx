@@ -3,7 +3,7 @@ require "instagram"
 
 enable :sessions
 
-CALLBACK_URL = "http://morning-sands-2794.herokuapp.com/oauth/callback"
+CALLBACK_URL = "http://instxxx.herokuapp.com/oauth/callback"
 
 Instagram.configure do |config|
   config.client_id = "435d7cd451364d44bd0138b2a29e588f"
