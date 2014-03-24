@@ -5,8 +5,6 @@ gem "sinatra-contrib"
 gem "sinatra-assetpack"
 gem "sinatra-static-assets"
 gem "sinatra-flash"
-gem "datamapper"
-gem "dm-migrations"
 gem "pg"
 gem "rake"
 gem "multi_json",'1.8.4'
