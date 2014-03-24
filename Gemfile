@@ -7,7 +7,7 @@ gem "sinatra-static-assets"
 gem "sinatra-flash"
 gem "datamapper"
 gem "dm-migrations"
-gem "dm-sqlite-adapter"
+gem "pg"
 gem "rake"
 gem "multi_json",'1.8.4'
 gem "instagram"
