@@ -11,8 +11,6 @@ Instagram.configure do |config|
 end
 
 get "/" do
-
- 
   erb :index
 end
 
