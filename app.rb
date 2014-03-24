@@ -2,14 +2,8 @@ require "rubygems"
 require "bundler"
 require "sinatra"
 require "instagram"
-require "sinatra/reloader" if development?
-require "sinatra/json"
-require "sinatra/cookies"
-require "sinatra/flash"
 require "open-uri"
 require "./controller"
-require "./assets"
-require "./helpers"
 
 Bundler.require(:default)
 
