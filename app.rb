@@ -3,7 +3,6 @@ require "bundler"
 require "sinatra"
 require "instagram"
 require "sinatra/reloader" if development?
-require "bundler"
 require "sinatra/json"
 require "sinatra/cookies"
 require "sinatra/flash"
