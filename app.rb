@@ -9,7 +9,6 @@ require "sinatra/cookies"
 require "sinatra/flash"
 require "open-uri"
 require "./controller"
-require "./model"
 require "./assets"
 require "./helpers"
 
