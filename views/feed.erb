@@ -1,0 +1,20 @@
+<h1 style="text-align:center;"><%=  @user.username  %>'s shit</h1>
+<hr />
+
+<div class="row">
+	<div class="container">
+	  <% for media_item in @media_item %>
+	  	<div class="col-md-3">
+	  	 <div class="well">
+	  	<img src="<%= media_item.images.low_resolution.url  %>"><br>
+
+	  	<hr />
+	  	<a class='btn btn-primary btn-block' href="http://tools.dogfightplay.com/instaliked/postImg.php?userid=708213392&imageid=<%= media_item.id %>&imageurl=http://distilleryimage1.s3.amazonaws.com/ed10bb488f6b11e38ded120785fa0415_6.jpg&auth_token=2381143622211620&user_token=6962404252110">Boost Photo</a>
+			<br>
+	  	** Only boost photo once every 5 minutes or else your photo will be banned. **
+	  	  </div>
+	  	 </div>
+	  <% end %>
+	</div>
+</div>
+
